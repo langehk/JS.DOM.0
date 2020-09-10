@@ -1,0 +1,28 @@
+#inputDate, #range, #inputNumber, #kelvinSubmit{
+    width: 100%; 
+
+}
+
+#inputDate, #rangeValue, #inputNumber, #kelvinSubmit{
+    margin-bottom: 2%;
+}
+
+
+#kelvinForm{
+    width: 70%; 
+    margin: auto; 
+}
+
+#rangeValue{
+    color: blue;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+#kelvinSubmit:hover, #range:hover{
+    cursor: pointer;
+}

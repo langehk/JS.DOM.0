@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./scripts/kelvinAndDate.js"></script>
+    <link href="./styles/kelvin.css" rel="stylesheet">
+    <title>Kelvin</title>
+</head>
+<body>
+
+    <form id="kelvinForm" action="index.html" onsubmit="return validateForm();" >
+
+        <input id="inputDate" type="date"> <br>
+        <input id="range" type="range" value="50" min="-500" max="7000"> <br>
+        <span id="rangeValue"></span>
+        <script>
+        
+            let slideCol = document.getElementById("range");
+            let v = document.getElementById("rangeValue");
+            v.innerHTML = slideCol.value;
+            slideCol.oninput = function() {
+                v.innerHTML = this.value;
+            }
+
+        </script>
+
+        <input id="inputNumber"> <br>
+        <input id="kelvinSubmit" type="submit"></button>
+
+    </form>
+    
+</body>
+</html>
