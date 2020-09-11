@@ -9,7 +9,7 @@ function validateForm(){
         alert("Form must be filled"); 
         return false;
     }
-
+gi
     if(isNaN(number) | number < 0 | number > 100){ //Tjekker om det er et nummer, og om det er mellem 0 og 100
         alert("Enter a number between 0 and 100");
         return false;
